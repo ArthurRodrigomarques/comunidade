@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url(../imagens/palha2.jpg);
+    background-position: center center;
+    background-repeat:repeat;
+    
+
+    
+}
+.conteiner{
+    border-radius: 10px;
+    display:grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows:35vh 40vh ;
+    grid-template-areas: "secao1 secao1"
+                        "secao2 secao3";
+}
+
+.secao {
+    border-radius: 10px;
+    display: grid;
+    background-color: white;
+    margin:6vw 5vw 3vw 5vw ;
+    width: 90vw;
+    height: 75vh;
+    text-align: center;
+    
+}
+.secao1 {
+background-color: rgb(146, 146, 146);
+grid-area: secao1;
+border-radius: 10px 10px 0px 0px;
+text-align: left;
+}
+.secao2 {
+grid-area: secao2;
+background: rgb(32, 32, 32);
+border-radius: 0px 0px 0px 10px;
+text-align: left;
+}
+.secao3 {
+grid-area: secao3;
+background-color: rgb(56, 138, 60);
+border-radius: 0px 0px 10px 0px;
+text-align: left;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 40px;
+}
+h2 {
+    font-size: 30px;
+    margin: 40px;
+    margin: 0px 0px 30px 40px;
+}
+p {
+    font-size: 25px;
+    margin: 0px 0px 0px 40px;
+}
+.italic{ font-size: 25px; color: white;}
+
+                /*secao1*/
+.secao1 h1{
+    color: green;
+}
+.secao1 h2 {
+    color: rgb(52, 192, 52);
+}
+.secao1 p {
+    color: rgb(59, 59, 59);
+}
+
+                /*secao2*/
+.secao2 h1 {
+color:rgb(91, 185, 91);
+}
+.secao2 h2{
+    font-size:40px ;
+    color: white;
+}
+.secao2 p {
+   margin: 40px 0px 0px 40px;
+    color: white;
+}
+.butao{
+    height: 20px;
+    margin: 20px 50px 0px 50px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background: rgb(32, 32, 32);
+    color:rgb(91, 185, 91);
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    transition:  all 1s;
+}
+.butao:hover {
+    background-color: gray;
+}
+
+            /*secao3*/
+
+.secao3 h1 {
+    color: white;
+}
+.secao3 p {
+    display: block;
+    text-indent: 30px;
+}

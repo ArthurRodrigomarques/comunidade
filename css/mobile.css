@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media (max-width:700px) {
+    .conteiner{
+        border-radius: 10px;
+        display:grid;
+        grid-template-columns: 3fr 3fr;
+        grid-template-rows:35vh 40vh ;
+        grid-template-areas: "secao1 secao1"
+                            "secao2 secao2"
+                            "secao3 secao3";
+    }
+    
+    .secao{
+        
+        width: 20vw;
+        height: 50vh;
+        
+    }
+    .conteiner p {
+        margin: 10px;
+    }
+   .conteiner {
+    width: 40vw;
+   }
+    h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+        text-indent: 30px;
+    }
+    .secao3 {
+        
+    }
+}

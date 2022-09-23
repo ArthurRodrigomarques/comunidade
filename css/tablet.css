@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@media (max-width:1000px ) {
+    body {
+        width: 100px ;
+    }
+    .secao{
+        width: 89vw;
+    }
+   .conteiner .secao1{
+    width: 85vw;
+   }
+   .conteiner .secao2, .secao3 {
+    width:85vw ;
+    height: 40vh;
+   }
+   .secao1 {
+    height: 40vh;
+   }
+   .secao2{
+    margin-top: 40px;
+   }
+    .secao2 h1 {
+        font-size: 20px;
+    }
+    .secao2 h2 {
+        
+        font-size: 20px;
+    }
+    .secao2 p {
+        font-size: 15px;
+        
+    }
+
+
+}
